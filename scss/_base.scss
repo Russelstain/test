@@ -1,0 +1,51 @@
+.page__body {
+    font-size: 16px;
+    font-family: var(--main-font);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--main-color);
+    background: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img,
+svg,
+iframe {
+    vertical-align: top;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.list-reset {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-reset {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-reset {
+    background: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: inherit;
+}
+
+.container {
+    max-width: 1183px;
+    margin: 0 auto;
+}

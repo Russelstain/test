@@ -1,0 +1,137 @@
+.choice-item {
+    display: inline-flex;
+    margin-top: 55px;
+}
+
+.choice__title {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: #212B31;
+}
+
+.choice__subtitle {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #212B31;
+}
+
+.choice-content__text {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212B31;
+}
+
+.choice-content__subtext {
+    max-width: 394px;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #72787D;
+    margin-top: 10px;
+}
+
+.choice-item:nth-child(3) p {
+    max-width: 356px;
+}
+
+.choice-content {
+    margin-left: 16px;
+}
+
+.choice-slider {
+    margin-top: 55px;
+    background: #F6F8F9;
+    border-radius: 5px;
+    padding: 60px 92px 60px 87px;
+    background-image: url(../img/section-choice/right-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 43px;
+    background-position-y: 76px;
+}
+
+.choice-bot {
+    border-top: 28px;
+    display: flex;
+}
+
+.choice-bot__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212B31;
+}
+
+.choice-bot__subtext {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #72787D;
+}
+
+.choice-bot-wrap {
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.choice-slider__text {
+    max-width: 435px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: #212B31;
+}
+
+.swiper-pagination-bullet {
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.swiper-pagination-bullet-active {
+    outline: none;
+}
+
+.choice-bottom-container {
+    max-width: 676px;
+}
+
+.choice-block {
+    margin-right: 72px;
+}
+
+.choice-block:nth-last-child(-n+2) {
+    margin: 0;
+}
+
+.choice-block:last-child {
+    margin-top: 41px;
+}
+
+.choice-bottom {
+    margin-top: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.choice-block__text {
+    max-width: 134px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
